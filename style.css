@@ -11,3 +11,7 @@ p {
   font-family: courier;
   font-size: 160%;
 }
+
+img {
+  border-style: double;
+}
