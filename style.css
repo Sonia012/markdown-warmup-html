@@ -1,17 +1,30 @@
 body {
-  background-color: black;
-}
-h1 {
-  color: red;
-  font-family: verdana;
-  font-size: 300%;
-}
-p {
-  color: white;
-  font-family: courier;
-  font-size: 160%;
+  width: 1000px;
+  margin-left: 100px;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 50px 100px 50px 100px;
+  font-family: sans-serif;
 }
 
-img {
-  border-style: double;
+h1, h2 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.line {
+  border-bottom:0.5px solid rgb(224, 224, 224);
+}
+a {
+  text-decoration: none;
+  line-height: 30px;
+}
+ul :hover {
+  text-decoration: underline;
+}
+p {
+  line-height: 25px;
+}
+.checkboxes {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 25px;
 }
