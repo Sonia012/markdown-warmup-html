@@ -10,9 +10,7 @@ h1, h2 {
   margin-bottom: 8px;
   margin-top: 20px;
 }
-.line {
-  border-bottom:0.5px solid rgb(224, 224, 224);
-}
+
 a {
   text-decoration: none;
   line-height: 30px;
