@@ -1,14 +1,21 @@
-body {
-  width: 1000px;
-  margin-left: 100px;
-  border: 1px solid rgb(192, 192, 192);
-  padding: 50px 100px 50px 100px;
-  font-family: sans-serif;
+.container {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  grid-template-rows: auto;
+  justify-content: end;
+
 }
+
+
+
 
 h1, h2 {
   margin-bottom: 8px;
   margin-top: 20px;
+}
+
+li a {
+  display: block;
 }
 
 a {
@@ -17,6 +24,10 @@ a {
 }
 ul :hover {
   text-decoration: underline;
+}
+ul {
+  position:fixed;
+  right: 0;
 }
 p {
   line-height: 25px;
