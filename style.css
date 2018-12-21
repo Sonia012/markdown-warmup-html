@@ -27,6 +27,12 @@ body {
   grid-column: 1/2;
 }
 
+.techs {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
 .main {
   grid-row: 2;
   grid-column: 1;
@@ -56,12 +62,6 @@ body {
 
 .adres {
   justify-self: center;
-}
-
-.techs {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 h1, h2, h3 {
